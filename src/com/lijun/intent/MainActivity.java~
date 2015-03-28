@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
 	public void TestIntent1  (View view){
 		Intent intent = new Intent(this, SignInActivity.class);
 		startActivity(intent);
-		
+		finish();
 	}
 	
 	public void TestIntent2(View view) {
