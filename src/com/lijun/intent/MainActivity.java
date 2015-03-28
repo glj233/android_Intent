@@ -23,7 +23,12 @@ public class MainActivity extends Activity {
 		startActivity(intent);
 		
 	}
-	
+/*
+
+    look here
+
+*/	
+
 	public void TestIntent2(View view) {
 		Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
 		String[] recipients = new String[]{"glj2333@163.com"};
